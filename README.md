@@ -1,4 +1,4 @@
-# Zaban · زبان — Contributor Form
+# zabaan — Contributor Form
 
 A privacy-first language preservation form. Contributors record voice notes and enter phrase translations. Audio goes to Cloudinary, metadata goes to Google Sheets.
 
@@ -12,7 +12,7 @@ A privacy-first language preservation form. Contributors record voice notes and 
 2. Go to **Settings → Upload → Upload presets**
 3. Click **Add upload preset**
 4. Set **Signing mode** to `Unsigned`
-5. Give it a name like `zaban_audio`
+5. Give it a name like `zabaan_audio`
 6. Save
 7. Copy your **Cloud name** from the top of the dashboard
 
@@ -79,11 +79,11 @@ const SHEETS_ENDPOINT = 'YOUR_GOOGLE_SHEETS_WEBAPP_URL';
 
 ### Step 3 — Deploy to GitHub Pages
 
-1. Create a new GitHub repository (e.g. `zaban-contributor`)
+1. Create a new GitHub repository (e.g. `zabaan-contributor`)
 2. Upload `index.html` to the repo
 3. Go to **Settings → Pages**
 4. Source: **Deploy from a branch → main → / (root)**
-5. Your form will be live at `https://yourusername.github.io/zaban-contributor`
+5. Your form will be live at `https://yourusername.github.io/zabaan-contributor`
 
 Share that URL in your WhatsApp group.
 
